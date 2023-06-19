@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragment_info">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="30dp"
+            android:src="@drawable/logo_tracking_ic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi 10120050 sensor adalah aplikasi yang menggunakan sensor yang ada pada android untuk melacak lokasi menggunakan Google Api "
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih icon lokasi untuk menemukan lokasi user berdasarkan google maps tolong izinkan akses lokasi agar dapat digunakan aplikasi secara optimal"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

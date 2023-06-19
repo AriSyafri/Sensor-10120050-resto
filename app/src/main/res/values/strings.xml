@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">10120050 Sensor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="desc_a">Selamat Datang Di Aplikasi Sensor</string>
+    <string name="desc_b">Aplikasi ini untuk menemukan lokasi user</string>
+    <string name="desc_c">Menemukan lokasi restoran terdekat user</string>
+    <string name="desc_d">Selamat mencoba</string>
+
+</resources>
